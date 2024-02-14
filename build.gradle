@@ -18,6 +18,7 @@ plugins {
   id 'com.diffplug.spotless' version '6.25.0'
 }
 apply plugin: 'de.undercouch.download'
+apply plugin: 'maven-publish'
 
 import org.ajoberstar.grgit.Grgit
 
